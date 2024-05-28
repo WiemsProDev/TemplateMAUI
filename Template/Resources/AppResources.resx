@@ -1,0 +1,1881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Tu" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="ErrorRegistro" xml:space="preserve">
+    <value>An error occurred in the sign up process: </value>
+  </data>
+  <data name="ErrorRecovery" xml:space="preserve">
+    <value>An error occurred in the recovery process: </value>
+  </data>
+  <data name="ErrorActualizarUsuario" xml:space="preserve">
+    <value>An error occurred while updating the user: </value>
+  </data>
+  <data name="ErrorSincronizarMensajes" xml:space="preserve">
+    <value>An error occurred while synchronizing the messages: </value>
+  </data>
+  <data name="ErrorLogin" xml:space="preserve">
+    <value>An error has occurred, wrong username or password</value>
+  </data>
+  <data name="ErrorInternet" xml:space="preserve">
+    <value>Error, you have no internet connection</value>
+  </data>
+  <data name="ErrorInternetLong" xml:space="preserve">
+        <value>Error, too much time without internet, plese log again with internet</value>
+    </data>
+  <data name="Aceptar" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Accediendo" xml:space="preserve">
+    <value>Accessing...</value>
+  </data>
+  <data name="CargandoPerfil" xml:space="preserve">
+    <value>Loading profile...</value>
+  </data>
+  <data name="DescargandoEntrenamientos" xml:space="preserve">
+    <value>Downloading trainings...</value>
+  </data>
+  <data name="DescargandoPlanes" xml:space="preserve">
+    <value>Downloading plans trainings...</value>
+  </data>
+  <data name="DescargandoClientes" xml:space="preserve">
+    <value>Downloading customers...</value>
+  </data>
+  <data name="DescargandoEjercicios" xml:space="preserve">
+    <value>Downloading exercices...</value>
+  </data>
+  <data name="DescargandoFotos" xml:space="preserve">
+    <value>Downloading pictures...</value>
+  </data>
+  <data name="DescargandoMenu" xml:space="preserve">
+    <value>Downloading menu...</value>
+  </data>
+  <data name="DescargandoFamilias" xml:space="preserve">
+    <value>Downloading families...</value>
+  </data>
+  <data name="ActualizandoClientes" xml:space="preserve">
+    <value>Updatinging customers...</value>
+  </data>
+  <data name="ActualizandoEjercicios" xml:space="preserve">
+    <value>Updatinging exercices...</value>
+  </data>
+  <data name="ActualizandoSuscripciones" xml:space="preserve">
+    <value>Updatinging Suscriptions...</value>
+  </data>
+  <data name="DescargandoDispositivos" xml:space="preserve">
+    <value>Downloading devices...</value>
+  </data>
+  <data name="DescargandoPulsometros" xml:space="preserve">
+    <value>Downloading heart rates devices...</value>
+  </data>
+  <data name="DescargandoProgramas" xml:space="preserve">
+    <value>Downloading programs...</value>
+  </data>
+  <data name="Hombre" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Mujer" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Objetivo1" xml:space="preserve">
+    <value>1. % Fat loss</value>
+  </data>
+  <data name="Objetivo2" xml:space="preserve">
+    <value>2. % Muscle increase</value>
+  </data>
+  <data name="Objetivo3" xml:space="preserve">
+    <value>3. Aesthetics and definition</value>
+  </data>
+  <data name="Objetivo4" xml:space="preserve">
+    <value>4. Sports performance</value>
+  </data>
+  <data name="Objetivo5" xml:space="preserve">
+    <value>5. Retrofit</value>
+  </data>
+  <data name="Objetivo6" xml:space="preserve">
+    <value>6. Health</value>
+  </data>
+  <data name="Hoy" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="SeguirLeyendo" xml:space="preserve">
+        <value>Read More</value>
+    </data>
+  <data name="Ayer" xml:space="preserve">
+    <value>Yesterday</value>
+  </data>
+  <data name="PreguntaAsignarDispositivo" xml:space="preserve">
+    <value>Do you want to assign the device {t}?</value>
+  </data>
+  <data name="PreguntaIncluirClientes" xml:space="preserve">
+        <value>Do you want to include more cliente to this workout?</value>
+    </data>
+  <data name="PreguntaComenzarEntrenamiento" xml:space="preserve">
+    <value>Do you want to start your training?</value>
+  </data>
+  <data name="PreguntaPararEntrenamiento" xml:space="preserve">
+    <value>Do you want to stop your training?</value>
+  </data>
+  <data name="EntrenadorVinculado" xml:space="preserve">
+    <value>Trainer linked successfully</value>
+  </data>
+  <data name="EntrenadorNoVinculado" xml:space="preserve">
+    <value>Failed to link trainer</value>
+  </data>
+  <data name="Invitado" xml:space="preserve">
+    <value>Guest</value>
+  </data>
+  <data name="Guardando" xml:space="preserve">
+    <value>Saving...</value>
+  </data>
+  <data name="UsuarioActualizado" xml:space="preserve">
+    <value>User Updated successfully</value>
+  </data>
+  <data name="UsuarioEliminado" xml:space="preserve">
+    <value>User Removed successfully</value>
+  </data>
+  <data name="TodosCamposObligatorios" xml:space="preserve">
+    <value>All fields are required</value>
+  </data>
+  <data name="ErrorNombreEntrenamiento" xml:space="preserve">
+    <value>You must provide a name for your training</value>
+  </data>
+  <data name="ErrorActividadEntrenamiento" xml:space="preserve">
+    <value>You must indicate an activity for your training</value>
+  </data>
+  <data name="PreguntaGuardarEntrenamiento" xml:space="preserve">
+    <value>Do you want to save your training?</value>
+  </data>
+  <data name="SalirSinGuardarEntrenamiento" xml:space="preserve">
+    <value>Do you want to exit without saving your training?</value>
+  </data>
+  <data name="EntrenamientoGuardado" xml:space="preserve">
+    <value>Training saved successfully</value>
+  </data>
+  <data name="ErrorGuardarEntrenamiento" xml:space="preserve">
+    <value>Failed to save training</value>
+  </data>
+  <data name="EmailNoCoinciden" xml:space="preserve">
+    <value>Emails do not match</value>
+  </data>
+  <data name="FechaIncorrecta" xml:space="preserve">
+    <value>The date is incorrect, please enter a correct date.</value>
+  </data>
+  <data name="FechaNacimientoIncorrecta" xml:space="preserve">
+    <value>Date of birth is greater than current.</value>
+  </data>
+  <data name="Todos" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="VistosPorMi" xml:space="preserve">
+    <value>Seen by me</value>
+  </data>
+  <data name="NoVistosPorMi" xml:space="preserve">
+    <value>Not seen by me</value>
+  </data>
+  <data name="Orden" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="FechaDeCreacion" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="MasVistos" xml:space="preserve">
+    <value>Most Viewed</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="PreguntaComoEntrenar" xml:space="preserve">
+    <value>How do you want to train?</value>
+  </data>
+  <data name="SoloVideo" xml:space="preserve">
+    <value>Video Only</value>
+  </data>
+  <data name="ReestableciendoConexion" xml:space="preserve">
+    <value>Resetting connection...</value>
+  </data>
+  <data name="MasValorados" xml:space="preserve">
+    <value>Top Rated</value>
+  </data>
+  <data name="Excelente" xml:space="preserve">
+    <value>Excellent</value>
+  </data>
+  <data name="MuyBueno" xml:space="preserve">
+    <value>Very Good</value>
+  </data>
+  <data name="Bueno" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="Regular" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="Malo" xml:space="preserve">
+    <value>Bad</value>
+  </data>
+  <data name="MuyMalo" xml:space="preserve">
+    <value>Very Bad</value>
+  </data>
+  <data name="Si" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ErrorCargandoPerfil" xml:space="preserve">
+    <value>An error occurred downloading trainers</value>
+  </data>
+  <data name="ErrorCargandoMenu" xml:space="preserve">
+    <value>An error occurred downloading menu</value>
+  </data>
+  <data name="ErrorDescargandoDispositivos" xml:space="preserve">
+    <value>An error occurred while downloading the devices</value>
+  </data>
+  <data name="ErrorDescargandoSuscripciones" xml:space="preserve">
+        <value>An error occurred downloading suscriptions</value>
+    </data>
+  <data name="ErrorDescargandoClientes" xml:space="preserve">
+    <value>An error occurred while downloading the customers</value>
+  </data>
+  <data name="ErrorActualizandoClientes" xml:space="preserve">
+    <value>An error occurred while updating the customers</value>
+  </data>
+  <data name="ErrorDescargandoEjercicios" xml:space="preserve">
+    <value>An error occurred while downloading the exercices</value>
+  </data>
+  <data name="ErrorDescargandoEntrenamientos" xml:space="preserve">
+    <value>An error occurred while downloading trainings</value>
+  </data>
+  <data name="ErrorDescargandoFamilias" xml:space="preserve">
+    <value>An error occurred while downloading families</value>
+  </data>
+  <data name="ErrorDescargandoFotos" xml:space="preserve">
+    <value>An error occurred while downloading the pictures</value>
+  </data>
+  <data name="ErrorDescargandoPlanes" xml:space="preserve">
+    <value>An error occurred while downloading the plans</value>
+  </data>
+  <data name="CerrarSesion" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Inicio" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Acceso" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Acceder" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="OlvidoPassword" xml:space="preserve">
+    <value>forgot your password?</value>
+  </data>
+  <data name="Siguenos" xml:space="preserve">
+    <value>Follow us</value>
+  </data>
+  <data name="NuevaCuenta" xml:space="preserve">
+    <value>Don't have account?, Sign up here</value>
+  </data>
+  <data name="Registro" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="RecuperaPwd" xml:space="preserve">
+    <value>Recovery your Password</value>
+  </data>
+  <data name="EnviarSolicitud" xml:space="preserve">
+    <value>Send Request</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Apellidos" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="Alias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="FechaNacimiento" xml:space="preserve">
+    <value>Birth Date</value>
+  </data>
+  <data name="FechaNacimientoMin" xml:space="preserve">
+        <value>Birth</value>
+    </data>
+  <data name="DNI" xml:space="preserve">
+    <value>Identification</value>
+  </data>
+  <data name="Sexo" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Telefono" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Poblacion" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="CodigoPostal" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="Direccion" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="DatosPersonales" xml:space="preserve">
+    <value>Personal Data</value>
+  </data>
+  <data name="DatosSalud" xml:space="preserve">
+    <value>Health Data</value>
+  </data>
+  <data name="Altura" xml:space="preserve">
+    <value>Height (cm)</value>
+  </data>
+  <data name="Peso" xml:space="preserve">
+    <value>Weight (Kg)</value>
+  </data>
+  <data name="Objetivo" xml:space="preserve">
+    <value>Personal Objective</value>
+  </data>
+  <data name="Deportes" xml:space="preserve">
+    <value>Sports/Favourites Activities</value>
+  </data>
+  <data name="Enfermedad" xml:space="preserve">
+    <value>Illness</value>
+  </data>
+  <data name="Medicacion" xml:space="preserve">
+    <value>Medication</value>
+  </data>
+  <data name="Motivacion" xml:space="preserve">
+    <value>Motivation</value>
+  </data>
+  <data name="Activo" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="RepeatPassword" xml:space="preserve">
+    <value>Repeat Password</value>
+  </data>
+  <data name="Cargando" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="Conectando" xml:space="preserve">
+        <value>Connecting EMS</value>
+  </data>
+  <data name="Conectando2" xml:space="preserve">
+        <value>Connecting EMSs</value>
+  </data>
+  <data name="ConectandoSensores" xml:space="preserve">
+        <value>Connecting sensors</value>
+    </data>
+  <data name="ErrorSimple" xml:space="preserve">
+        <value>An error has occurred</value>
+    </data>
+  <data name="Error" xml:space="preserve">
+    <value>An error has occurred, please try again later</value>
+  </data>
+  <data name="Obligatorios" xml:space="preserve">
+    <value>are required</value>
+  </data>
+  <data name="Obligatorias" xml:space="preserve">
+    <value>are requireds</value>
+  </data>
+  <data name="Obligatorio" xml:space="preserve">
+    <value>is required</value>
+  </data>
+  <data name="Obligatoria" xml:space="preserve">
+    <value>is required</value>
+  </data>
+  <data name="VeryWeak" xml:space="preserve">
+    <value>Very Weak</value>
+  </data>
+  <data name="Weak" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Strong" xml:space="preserve">
+    <value>Strong</value>
+  </data>
+  <data name="VeryStrong" xml:space="preserve">
+    <value>Very Strong</value>
+  </data>
+  <data name="Y" xml:space="preserve">
+    <value> and </value>
+  </data>
+  <data name="EmailInvalido" xml:space="preserve">
+    <value>Email is invalid</value>
+  </data>
+  <data name="EmailExiste" xml:space="preserve">
+    <value>This Email already exist in the system. Please, go to recovery your password.</value>
+  </data>
+  <data name="PasswordsNoCoinciden" xml:space="preserve">
+    <value>The passwords not matches</value>
+  </data>
+  <data name="PasswordNoSegura" xml:space="preserve">
+    <value>Password is not secure</value>
+  </data>
+  <data name="MisPlanes" xml:space="preserve">
+    <value>My Plans</value>
+  </data>
+  <data name="MisCanales" xml:space="preserve">
+    <value>My Channels</value>
+  </data>
+  <data name="EntrenamientosEMS" xml:space="preserve">
+    <value>EMS training</value>
+  </data>
+  <data name="Tienda" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Entrenadores" xml:space="preserve">
+    <value>Trainers</value>
+  </data>
+  <data name="Comunicaciones" xml:space="preserve">
+    <value>Communications</value>
+  </data>
+  <data name="HistoricoSalud" xml:space="preserve">
+    <value>Health history</value>
+  </data>
+  <data name="Configuracion" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ConfiguracionEntrenamiento" xml:space="preserve">
+        <value>Trainings Settings</value>
+    </data>
+  <data name="ConfiguracionButton" xml:space="preserve">
+    <value>   Settings</value>
+  </data>
+  <data name="Perfil" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Clientes" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="Recordarme" xml:space="preserve">
+    <value>Remember me</value>
+  </data>
+  <data name="Entrar" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="PerfilCliente" xml:space="preserve">
+    <value>Customer profile</value>
+  </data>
+  <data name="Morfologia" xml:space="preserve">
+    <value>Morphology and data of interest</value>
+  </data>
+  <data name="PermiteMensajes" xml:space="preserve">
+    <value>Allow send messages</value>
+  </data>
+  <data name="FrecuenciaCardiaca" xml:space="preserve">
+    <value>Heart Rate</value>
+  </data>
+  <data name="FrecuenciaCardiacaGrafica" xml:space="preserve">
+    <value>Heart Rate Graph</value>
+  </data>
+  <data name="FrecuenciaCardiacaZona" xml:space="preserve">
+    <value>Heart Rate Zones</value>
+  </data>
+  <data name="Zona0" xml:space="preserve">
+    <value>Zone 0</value>
+  </data>
+  <data name="Zona1" xml:space="preserve">
+    <value>Zone 1</value>
+  </data>
+  <data name="Zona2" xml:space="preserve">
+    <value>Zone 2</value>
+  </data>
+  <data name="Zona3" xml:space="preserve">
+    <value>Zone 3</value>
+  </data>
+  <data name="Zona4" xml:space="preserve">
+    <value>Zone 4</value>
+  </data>
+  <data name="Zona5" xml:space="preserve">
+    <value>Zone 5</value>
+  </data>
+  <data name="HRReposo" xml:space="preserve">
+    <value>HR Sleep</value>
+  </data>
+  <data name="HRMax" xml:space="preserve">
+    <value>HR Máx.</value>
+  </data>
+  <data name="Mensaje" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ResumenEntrenamiento" xml:space="preserve">
+    <value>Summary of your training</value>
+  </data>
+  <data name="Duracion" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Fecha" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Actividad" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="PulsoMedio" xml:space="preserve">
+    <value>Average Pulse</value>
+  </data>
+  <data name="Calorias" xml:space="preserve">
+    <value>Calories</value>
+  </data>
+  <data name="CuadricepsMin" xml:space="preserve">
+    <value>Qua.</value>
+  </data>
+  <data name="Gluteos2Min" xml:space="preserve">
+    <value>Glu2.</value>
+  </data>
+  <data name="ObliqueMin" xml:space="preserve">
+    <value>Obl.</value>
+  </data>
+  <data name="AbductorMin" xml:space="preserve">
+    <value>Abdu.</value>
+  </data>
+  <data name="IsquiotibialesMin" xml:space="preserve">
+    <value>Ham.</value>
+  </data>
+  <data name="GluteosMin" xml:space="preserve">
+    <value>Glu.</value>
+  </data>
+  <data name="LumbaresMin" xml:space="preserve">
+    <value>Low B.</value>
+  </data>
+  <data name="DorsalesMin" xml:space="preserve">
+    <value>Bibs</value>
+  </data>
+  <data name="AbdominalesMin" xml:space="preserve">
+    <value>Abs.</value>
+  </data>
+  <data name="PectoralesMin" xml:space="preserve">
+    <value>Pec.</value>
+  </data>
+  <data name="BrazosMin" xml:space="preserve">
+    <value>Bra.</value>
+  </data>
+  <data name="Compartir" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="FinEntrenamiento" xml:space="preserve">
+    <value>Congratulations, she has finished her training.</value>
+  </data>
+  <data name="GraficaPulso" xml:space="preserve">
+    <value>Pulse graph</value>
+  </data>
+  <data name="DejenosValoracion" xml:space="preserve">
+    <value>Leave us your evaluation</value>
+  </data>
+  <data name="PreguntaRealizarEntrenamiento" xml:space="preserve">
+    <value>Do you want to do a workout?</value>
+  </data>
+  <data name="BotonEntrenamiento" xml:space="preserve">
+    <value>Press the button to start training</value>
+  </data>
+  <data name="ComenzarEntrenamiento" xml:space="preserve">
+    <value>Start Training</value>
+  </data>
+  <data name="PararEntrenamiento" xml:space="preserve">
+    <value>Stop Training</value>
+  </data>
+  <data name="Entrenamientos" xml:space="preserve">
+    <value>Trainings</value>
+  </data>
+  <data name="EmpezarAhora" xml:space="preserve">
+    <value>Start now</value>
+  </data>
+  <data name="EmpezarAhoraSinEMS" xml:space="preserve">
+    <value>Start now without EMS</value>
+  </data>
+  <data name="SeleccioneEMS" xml:space="preserve">
+        <value>Select the EMS program you want to run</value>
+    </data>
+  <data name="Noticias" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="Novedades" xml:space="preserve">
+    <value>What's New</value>
+  </data>
+  <data name="GanasDeMas" xml:space="preserve">
+    <value>Do you want more?</value>
+  </data>
+  <data name="VamosEntrenar" xml:space="preserve">
+    <value>Let's train!</value>
+  </data>
+  <data name="DescubrirEntrenamientos" xml:space="preserve">
+    <value>Discover Trainings</value>
+  </data>
+  <data name="Canales" xml:space="preserve">
+    <value>Channels</value>
+  </data>
+  <data name="SeleccioneCanal" xml:space="preserve">
+    <value>Select a channel</value>
+  </data>
+  <data name="CabeceraCanales" xml:space="preserve">
+    <value>Start training with a personalized program that guides you and adjusts to your progress, your schedule and other activities.</value>
+  </data>
+  <data name="VerOcultos" xml:space="preserve">
+    <value>Show hidden</value>
+  </data>
+  <data name="MisEntrenamientos" xml:space="preserve">
+    <value>My Trainings</value>
+  </data>
+  <data name="NuevaConversacion" xml:space="preserve">
+    <value>New Conversation</value>
+  </data>
+  <data name="SinEntrenadores" xml:space="preserve">
+    <value>There are no trainers</value>
+  </data>
+  <data name="VO2Max" xml:space="preserve">
+    <value>VO2 Max</value>
+  </data>
+  <data name="Guardar" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Cancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="HoraInicio" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="HoraFin" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="GuardeEntrenamiento" xml:space="preserve">
+    <value>Save your training</value>
+  </data>
+  <data name="NombreEntrenamiento" xml:space="preserve">
+    <value>Training name</value>
+  </data>
+  <data name="SeleccioneTipoActividad" xml:space="preserve">
+    <value>Select an activity type</value>
+  </data>
+  <data name="Registrate" xml:space="preserve">
+    <value>Sing Up</value>
+  </data>
+  <data name="InicioEntrenador" xml:space="preserve">
+    <value>Login Trainer</value>
+  </data>
+  <data name="Enviar" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Paso1de6" xml:space="preserve">
+    <value>Step 1 of 6</value>
+  </data>
+  <data name="Paso2de6" xml:space="preserve">
+    <value>Step 2 of 6</value>
+  </data>
+  <data name="Paso3de6" xml:space="preserve">
+    <value>Step 3 of 6</value>
+  </data>
+  <data name="Paso4de6" xml:space="preserve">
+    <value>Step 4 of 6</value>
+  </data>
+  <data name="Paso5de6" xml:space="preserve">
+    <value>Step 5 of 6</value>
+  </data>
+  <data name="Paso6de6" xml:space="preserve">
+    <value>Step 6 of 6</value>
+  </data>
+  <data name="PreguntaObjetivo" xml:space="preserve">
+    <value>What is your goal?</value>
+  </data>
+  <data name="PerdidaGraso" xml:space="preserve">
+    <value>% Fat loss</value>
+  </data>
+  <data name="IncrementoMuscular" xml:space="preserve">
+    <value>%Muscle increase</value>
+  </data>
+  <data name="EsteticaDefinicion" xml:space="preserve">
+    <value>Aesthetics and definition</value>
+  </data>
+  <data name="RendimientoDeportivo" xml:space="preserve">
+    <value>Sports performance</value>
+  </data>
+  <data name="Readaptacion" xml:space="preserve">
+    <value>Retrofit</value>
+  </data>
+  <data name="Salud" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="SaltarInformacion" xml:space="preserve">
+    <value>Skip training information</value>
+  </data>
+  <data name="PreguntaGenero" xml:space="preserve">
+    <value>What is your gender?</value>
+  </data>
+  <data name="IndicaNacimiento" xml:space="preserve">
+    <value>Enter your date of birth</value>
+  </data>
+  <data name="PreguntaAltura" xml:space="preserve">
+    <value>How tall are you?</value>
+  </data>
+  <data name="PreguntaPeso" xml:space="preserve">
+    <value>How much do you weigh?</value>
+  </data>
+  <data name="IndicaEstadoForma" xml:space="preserve">
+    <value>Indicate your form state</value>
+  </data>
+  <data name="Resumen" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="EstadoForma" xml:space="preserve">
+    <value>Form state</value>
+  </data>
+  <data name="Registrar" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="Siguiente" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="SeleccionaVideo" xml:space="preserve">
+    <value>Select a video</value>
+  </data>
+  <data name="SeleccionaOpcion" xml:space="preserve">
+    <value>Select an option</value>
+  </data>
+  <data name="ValoresInicio" xml:space="preserve">
+    <value>Save Initial Values</value>
+  </data>
+  <data name="CambioChaleco" xml:space="preserve">
+    <value>Change Jacket</value>
+  </data>
+  <data name="CabeceraVideos" xml:space="preserve">
+    <value>Start training with a personalized program that guides you and adjusts to your progress, your schedule and other activities.</value>
+  </data>
+  <data name="Filtros" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="PorNivel" xml:space="preserve">
+    <value>By level</value>
+  </data>
+  <data name="PorNombre" xml:space="preserve">
+    <value>By Name</value>
+  </data>
+  <data name="Vistos" xml:space="preserve">
+    <value>Viewed</value>
+  </data>
+  <data name="PorMonitor" xml:space="preserve">
+    <value>By monitor</value>
+  </data>
+  <data name="OrdenarPor" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="VerVideo" xml:space="preserve">
+    <value>Watch video</value>
+  </data>
+  <data name="DebeSuscribirse" xml:space="preserve">
+    <value>You must subscribe to the channel to watch the video</value>
+  </data>
+  <data name="RepiteEmail" xml:space="preserve">
+    <value>Repeat email</value>
+  </data>
+  <data name="QR" xml:space="preserve">
+    <value>QR Reader</value>
+  </data>
+  <data name="QRButton" xml:space="preserve">
+    <value>   QR Reader</value>
+  </data>
+  <data name="QRNoValido" xml:space="preserve">
+    <value>The QR code is invalid</value>
+  </data>
+  <data name="UsuarioFusionado" xml:space="preserve">
+    <value>You user is sinchronized</value>
+  </data>
+  <data name="UsuarioNoFusionado" xml:space="preserve">
+    <value>An error occurred in synchtonization</value>
+  </data>
+  <data name="EntrenamientoVinculado" xml:space="preserve">
+    <value>Training linked successfully</value>
+  </data>
+  <data name="EntrenamientoNoVinculado" xml:space="preserve">
+    <value>Failed to link training</value>
+  </data>
+  <data name="RepitePassword" xml:space="preserve">
+    <value>Repeat Password</value>
+  </data>
+  <data name="ReenviarEmail" xml:space="preserve">
+        <value>Resend email</value>
+    </data>
+    <data name="PreguntaReenvioEmail" xml:space="preserve">
+        <value>Your user is not verified, you must have received an email to validate it. If you have not received the email, click forward.</value>
+    </data>
+    <data name="EmailEnviado" xml:space="preserve">
+        <value>Email resended</value>
+    </data>
+    <data name="ErrorSeleccionPlan" xml:space="preserve">
+        <value>You must select a training plan</value>
+    </data>
+    <data name="ErrorSeleccionCliente" xml:space="preserve">
+        <value>You must select at least a client</value>
+    </data>
+    <data name="ErrorSeleccionDeviceCliente" xml:space="preserve">
+        <value>All clients must have a device selected</value>
+    </data>
+    <data name="ErrorEmailEnviado" xml:space="preserve">
+        <value>There was an error resending the email</value>
+    </data>
+     <data name="ErrorEmailVerificado" xml:space="preserve">
+        <value>Email is not verified.</value>
+    </data>
+    <data name="UsuarioNoEncontrado" xml:space="preserve">
+        <value>No user found</value>
+    </data>
+    <data name="PreTextoRecovery" xml:space="preserve">
+        <value>Enter the email with which you registered</value>
+    </data>
+    <data name="EmailNoVerificado" xml:space="preserve">
+        <value>This email is not verified</value>
+    </data>
+    <data name="Iniciado" xml:space="preserve">
+        <value>Started</value>
+    </data>
+    <data name="Parado" xml:space="preserve">
+        <value>Stopped</value>
+    </data>
+    <data name="Pausado" xml:space="preserve">
+        <value>Paused</value>
+    </data>
+    <data name="VerInfo" xml:space="preserve">
+        <value>View Info</value>
+    </data>
+    <data name="EntrenamientoExterno" xml:space="preserve">
+        <value>External Training</value>
+    </data>
+    <data name="NuevosDatos" xml:space="preserve">
+        <value>New Datas</value>
+    </data>
+    <data name="Semanal" xml:space="preserve">
+        <value>Every week</value>
+    </data>
+    <data name="QuinceDias" xml:space="preserve">
+        <value>Every 2 weeks</value>
+    </data>
+    <data name="Mensual" xml:space="preserve">
+        <value>Every month</value>
+    </data>
+    <data name="BiMensual" xml:space="preserve">
+        <value>Every 2 months</value>
+    </data>
+    <data name="TriMensual" xml:space="preserve">
+        <value>Every 3 months</value>
+    </data>
+    <data name="AvisoSalud" xml:space="preserve">
+        <value>Enter Body params</value>
+    </data>
+    <data name="Max" xml:space="preserve">
+        <value>Max</value>
+    </data>
+    <data name="Avg" xml:space="preserve">
+        <value>Avg</value>
+    </data>
+    <data name="PulsoMaximo" xml:space="preserve">
+        <value>Max Pulse</value>
+    </data>
+    <data name="VerGraficaComparativa" xml:space="preserve">
+        <value>View comparative graph</value>
+    </data>
+    <data name="AvisoAcustico" xml:space="preserve">
+        <value>Acustic Alarm</value>
+    </data>
+    <data name="AvisoVisual" xml:space="preserve">
+        <value>Visual Alarm</value>
+    </data>
+    <data name="MasaGrasa" xml:space="preserve">
+        <value>Fat mass</value>
+    </data>
+    <data name="MasaMuscular" xml:space="preserve">
+        <value>Muscle mass</value>
+    </data>
+    <data name="GrasaAbdominal" xml:space="preserve">
+        <value>Abdominal fat</value>
+    </data>
+    <data name="Perimetros" xml:space="preserve">
+        <value>Body perimeters</value>
+    </data>
+    <data name="Brazo" xml:space="preserve">
+        <value>Arm</value>
+    </data>
+    <data name="Cintura" xml:space="preserve">
+        <value>Waist</value>
+    </data>
+    <data name="Cadera" xml:space="preserve">
+        <value>Hips</value>
+    </data>
+    <data name="Muslo" xml:space="preserve">
+        <value>Thigh</value>
+    </data>
+    <data name="Gemelos" xml:space="preserve">
+        <value>Cufflinks</value>
+    </data>
+    <data name="ComoEntrenar" xml:space="preserve">
+        <value>How do you want to train?</value>
+    </data>
+    <data name="ConEMS" xml:space="preserve">
+        <value>With EMS</value>
+    </data>
+    <data name="SinEMS" xml:space="preserve">
+        <value>Without EMS</value>
+    </data>
+    <data name="RegistroOK" xml:space="preserve">
+        <value>Sign up OK</value>
+    </data>
+    <data name="DatoValido" xml:space="preserve">
+        <value>Please, enter a valid data</value>
+    </data>
+    <data name="UnSegundo" xml:space="preserve">
+        <value>1 seconds</value>
+    </data>
+    <data name="MedioSegundo" xml:space="preserve">
+        <value>0,5 seconds</value>
+    </data>
+    <data name="porcInicial" xml:space="preserve">
+        <value>% Start</value>
+    </data>
+     <data name="ExplicacionPorcInicial" xml:space="preserve">
+        <value>Initial percentage on the intensity saved for each muscle</value>
+    </data>
+    <data name="SubidaHasta" xml:space="preserve">
+        <value>Up to</value>
+    </data>
+     <data name="ExplicacionSubidaHasta" xml:space="preserve">
+        <value>Maximum percentage of rise over the intensity saved for each muscle</value>
+    </data>
+    <data name="SubidaProgresiva" xml:space="preserve">
+        <value>Progressive climb</value>
+    </data>
+     <data name="ExplicacionSubidaProgresiva" xml:space="preserve">
+        <value>Progressive increase of the intensity saved in each sensation of the training between the previous values</value>
+    </data>
+    <data name="TiempoSubida" xml:space="preserve">
+        <value>Time climb</value>
+    </data>
+     <data name="ExplicacionTiempoSubida" xml:space="preserve">
+        <value>Climb interval per milliamperium</value>
+    </data>
+    <data name="TourEMS" xml:space="preserve">
+        <value>EMS Tour</value>
+    </data>
+    <data name="CambiarUsuario" xml:space="preserve">
+        <value>Select other user</value>
+    </data>
+    <data name="Detalle" xml:space="preserve">
+        <value>Detail</value>
+    </data>
+    <data name="Descripcion" xml:space="preserve">
+        <value>Description</value>
+    </data>
+    <data name="NumSesiones" xml:space="preserve">
+        <value>Sesions Qty.</value>
+    </data>
+    <data name="PlanesEntrenamiento" xml:space="preserve">
+        <value>Training Plans</value>
+    </data>
+    <data name="PlanEntrenamiento" xml:space="preserve">
+        <value>Training Plan</value>
+    </data>
+    <data name="AsignarNuevo" xml:space="preserve">
+        <value>To Assing New</value>
+    </data>
+    <data name="ProcesoOK" xml:space="preserve">
+        <value>Process completed successfully.</value>
+    </data>
+    <data name="ReibiraEmailPass" xml:space="preserve">
+        <value>You will receive an email to finish the password change process.</value>
+    </data>
+    <data name="IrAcceso" xml:space="preserve">
+        <value>Go to login</value>
+    </data>
+    <data name="TipoEntrenamiento" xml:space="preserve">
+        <value>Type of training</value>
+    </data>
+    <data name="EntrenamientoLibre" xml:space="preserve">
+        <value>Free training</value>
+    </data>
+    <data name="Tratamientos" xml:space="preserve">
+        <value>Treatments</value>
+    </data>
+    <data name="UltimosTratamientosRealizados" xml:space="preserve">
+        <value>Last trearments realized</value>
+    </data>
+    <data name="SesionesRestantes" xml:space="preserve">
+        <value>reaming sessions</value>
+    </data>
+    <data name="BonosHco" xml:space="preserve">
+        <value>Bonds and History</value>
+    </data>
+    <data name="SeleccionaBono" xml:space="preserve">
+        <value>Select Bond</value>
+    </data>
+    <data name="ClienteSeleccionado" xml:space="preserve">
+        <value>Customer selected</value>
+    </data>
+    <data name="Cuadriceps" xml:space="preserve">
+        <value>Quadriceps</value>
+    </data>
+    <data name="Pectorales" xml:space="preserve">
+        <value>Pec</value>
+    </data>
+    <data name="Biceps" xml:space="preserve">
+        <value>Biceps</value>
+    </data>
+    <data name="Triceps" xml:space="preserve">
+        <value>Triceps</value>
+    </data>
+    <data name="Abductores" xml:space="preserve">
+        <value>Abductors</value>
+    </data>
+    <data name="Gluteo1" xml:space="preserve">
+        <value>Glute 1</value>
+    </data>
+    <data name="Gluteo2" xml:space="preserve">
+        <value>Glute 2</value>
+    </data>
+    <data name="Abdomen" xml:space="preserve">
+        <value>Abs</value>
+    </data>
+    <data name="TratamientoError" xml:space="preserve">
+        <value>There was an error loading treatments, please try again later.</value>
+    </data>
+    <data name="PreguntaActualizaCliente" xml:space="preserve">
+        <value>Do you want update user's data?</value>
+    </data>
+    <data name="PreguntaEliminarCliente" xml:space="preserve">
+        <value>Do you want remove user?</value>
+    </data>
+    <data name="PreguntaEliminarCuenta" xml:space="preserve">
+        <value>Do you want remove account?</value>
+    </data>
+    <data name="PreguntaInsertarPlan" xml:space="preserve">
+        <value>Do yo want asign this training plan to user?</value>
+    </data>
+    <data name="Camara" xml:space="preserve">
+        <value>Camera</value>
+    </data>
+    <data name="Galeria" xml:space="preserve">
+        <value>Gallery</value>
+    </data>
+    <data name="ErrorPermisosFoto" xml:space="preserve">
+        <value>You do not have permissions to change the photo</value>
+    </data>
+    <data name="ActualizacionFirmware" xml:space="preserve">
+        <value>Firmware update, to continue you need to update</value>
+    </data>
+    <data name="FirmwareError" xml:space="preserve">
+        <value>Firmware update failed</value>
+    </data>
+    <data name="ActualizandoFirmware" xml:space="preserve">
+        <value>Updating Firmware</value>
+    </data>
+    <data name="Completado" xml:space="preserve">
+        <value>Completed</value>
+    </data>
+    <data name="FirmwareOK" xml:space="preserve">
+        <value>Firmware update has been successful</value>
+    </data>
+    <data name="PreguntaValoresInicio" xml:space="preserve">
+        <value>Do you want to save these values as startup values?</value>
+    </data>
+    <data name="Informes" xml:space="preserve">
+        <value>Reports</value>
+    </data>
+    <data name="Historico" xml:space="preserve">
+        <value>Historic</value>
+    </data>
+    <data name="ErrorNombreNoValido" xml:space="preserve">
+        <value>User not saved. Introduced name is not valid.</value>
+    </data>
+
+    <data name="ErrorApellidoNoValido" xml:space="preserve">
+        <value>User not saved. Introduced surname is not valid.</value>
+    </data>
+
+    <data name="ErrorEmailNoValido" xml:space="preserve">
+        <value>User not saved. Introduced email is not valid.</value>
+    </data>
+
+    <data name="ErrorAlturaNoValida" xml:space="preserve">
+        <value>User not saved. Introduced heigth is not valid.</value>
+    </data>
+
+    <data name="ErrorPesoNoValido" xml:space="preserve">
+        <value>User not saved. Introduced weigth is not valid.</value>
+    </data>
+
+    <data name="ErrorFotoNoValida" xml:space="preserve">
+        <value>User not saved. There is no photo.</value>
+    </data>
+
+    <data name="ErrorEdadNoValida" xml:space="preserve">
+        <value>User not saved. Birthday is not valid.</value>
+    </data>
+    <data name="Buscar" xml:space="preserve">
+        <value>Search...</value>
+    </data>
+    <data name="Anyos" xml:space="preserve">
+        <value>years</value>
+    </data>
+    <data name="Segundos" xml:space="preserve">
+        <value>seconds</value>
+    </data>
+    <data name="ObjetivoTrack" xml:space="preserve">
+        <value>Objective</value>
+    </data>
+    <data name="PreguntaEliminarPulsometro" xml:space="preserve">
+        <value>¿Do you want to delete the HRM?</value>
+    </data>
+    <data name="PreguntaEliminarDispositivo" xml:space="preserve">
+        <value>¿Do you want to delete the device?</value>
+    </data>
+    <data name="PreguntaNuevoPulsometro" xml:space="preserve">
+        <value>¿Do you want to add the HRM?</value>
+    </data>
+    <data name="PreguntaNuevoDispositivo" xml:space="preserve">
+        <value>¿Do you want to add the Device?</value>
+    </data>
+    <data name="IntroduceAlias" xml:space="preserve">
+        <value>Set the HRM alias</value>
+    </data>
+    <data name="IntroduceAliasDispositivo" xml:space="preserve">
+        <value>Set the Device alias</value>
+    </data>
+    <data name="BuscandoPulsometros" xml:space="preserve">
+        <value>Searching HR Rates Monitor</value>
+    </data>
+    <data name="BuscandoPulsometrosDispositivos" xml:space="preserve">
+        <value>Searching Devices and HR Rates Monitor</value>
+    </data>
+    <data name="Refrescar" xml:space="preserve">
+        <value>Refresh</value>
+    </data>
+    <data name="PulsometrosDetectados" xml:space="preserve">
+        <value>HR Rates Monitor detected</value>
+    </data>
+    <data name="DispositivosDetectados" xml:space="preserve">
+        <value>Devices detected</value>
+    </data>
+    <data name="Comenzar" xml:space="preserve">
+        <value>Start</value>
+    </data>
+    <data name="Planes" xml:space="preserve">
+        <value>Plans</value>
+    </data>
+    <data name="SeleccionePlan" xml:space="preserve">
+        <value>Select a training plan</value>
+    </data>
+    <data name="FechaInicio" xml:space="preserve">
+        <value>Start Date</value>
+    </data>
+    <data name="FechaFin" xml:space="preserve">
+        <value>End Date</value>
+    </data>
+    <data name="AsignarClientes" xml:space="preserve">
+        <value>Assign to clients</value>
+    </data>
+    <data name="AsignarDispositivos" xml:space="preserve">
+        <value>Assign devices</value>
+    </data>
+    <data name="Asignar" xml:space="preserve">
+        <value>Assign</value>
+    </data>
+    <data name="AsignarPlan" xml:space="preserve">
+        <value>Assign Training Plan</value>
+    </data>
+    <data name="PreguntaAsignarClientes" xml:space="preserve">
+         <value>Do you want to assign %1 to these %2 clients?</value>
+     </data>
+     <data name="AsignandoPlanes" xml:space="preserve">
+         <value>Assigning training plans</value>
+     </data>
+     <data name="PlanesAsignados" xml:space="preserve">
+         <value>Training plans assigned correctly</value>
+     </data>
+     <data name="ErrorAsignandoPlanes" xml:space="preserve">
+         <value>An error occurred assigning the training plans</value>
+     </data>
+     <data name="DebeSeleccionarCliente" xml:space="preserve">
+         <value>You must select at least one customer</value>
+     </data>
+     <data name="MaximoTresClientes" xml:space="preserve">
+         <value>You can only select a maximum of three clients</value>
+     </data>
+     <data name="Dispositivos" xml:space="preserve">
+         <value>Devices</value>
+     </data>
+     <data name="NoSeleccionado" xml:space="preserve">
+         <value>Not Selected</value>
+     </data>
+     <data name="PreguntaSeleccionaOtroCliente" xml:space="preserve">
+         <value>Do you want add other client to training?</value>
+     </data>
+     <data name="PreguntaGuardarValoresInicioCliente" xml:space="preserve">
+         <value>Are yo sure to save init values of </value>
+     </data>
+     <data name="ValoresInicioGuardados" xml:space="preserve">
+         <value>Init values have been saved</value>
+     </data>
+     <data name="SinBateria" xml:space="preserve">
+         <value>The device has run out of battery power. Press STOP to end the training.</value>
+     </data>
+     <data name="DispApagado" xml:space="preserve">
+         <value>The device is switched off. Press STOP to end the training or turn it on and resume the training by pressing PLAY.</value>
+     </data>
+     <data name="EntrenamientoFinalizado" xml:space="preserve">
+         <value>Training finished.</value>
+     </data>
+     <data name="EntrenamientoFinalizaraPorDesconexion" xml:space="preserve">
+         <value>The training will end because no devices are connected.</value>
+     </data>
+     <data name="ClientesDesconectados" xml:space="preserve">
+         <value>There are clients with disconnected devices. Please connect them.</value>
+     </data>
+     <data name="SelectConnected" xml:space="preserve">
+         <value>You must select a connected device.</value>
+     </data>
+     <data name="VueltaDispositivo" xml:space="preserve">
+         <value>The client {t} has returned to training. For safety his currents have been set to 15mA.</value>
+     </data>
+
+     <!-- SOPORTE -->
+     <data name="NombreSoporte" xml:space="preserve">
+         <value>WiemsEasy Support</value>
+     </data>
+     <data name="Soporte" xml:space="preserve">
+         <value>Support</value>
+     </data>
+     <data name="SinComunicaciones" xml:space="preserve">
+        <value>No Communications</value>
+     </data>
+     <data name="SeleccionaDocumento" xml:space="preserve">
+        <value>Select a document</value>
+   </data>
+   <data name="SeleccionaImagen" xml:space="preserve">
+        <value>Select an image</value>
+    </data>
+    <data name="PulseAqui" xml:space="preserve">
+        <value>Click here</value>
+    </data>
+   <data name="App" xml:space="preserve">
+        <value>Wiems Easy</value>
+    </data>
+    <data name="MensajeNuevo" xml:space="preserve">
+        <value>You have received a new message from the Support team, do you want to reply now?</value>
+    </data>
+    <data name="DocumentoSubidoCorrectamente" xml:space="preserve">
+        <value>The document has been upload correctly</value>
+    </data>
+    <data name="Entrenar" xml:space="preserve">
+        <value>To train</value>
+    </data>
+    <data name="IntensidadProgresiva" xml:space="preserve">
+        <value>PROGRESSIVE INTENSITY</value>
+    </data>
+    <data name="RetornoMute" xml:space="preserve">
+        <value>RETURN MUTE</value>
+    </data>
+    <data name="Traje" xml:space="preserve">
+        <value>SUIT</value>
+    </data>
+    <data name="TrajePorDefecto" xml:space="preserve">
+        <value>DEFAULT SUIT</value>
+    </data>
+    <data name="Minutos" xml:space="preserve">
+        <value>minutes</value>
+    </data>
+    <data name="Tiempo" xml:space="preserve">
+        <value>Time</value>
+    </data>
+    <data name="Intensidades" xml:space="preserve">
+        <value>Intensities</value>
+    </data>
+    <data name="Media" xml:space="preserve">
+        <value>Medium</value>
+    </data>
+    <data name="Maxima" xml:space="preserve">
+        <value>Maximum</value>
+    </data>
+    <data name="SeleccioneUnEntrenamiento" xml:space="preserve">
+        <value>Select some training</value>
+    </data>
+    <data name="Piernas" xml:space="preserve">
+        <value>Legs</value>
+    </data>
+    <data name="Isquios" xml:space="preserve">
+        <value>Ischios</value>
+    </data>
+    <data name="Gluteos" xml:space="preserve">
+        <value>Buttocks</value>
+    </data>
+    <data name="Lumbares" xml:space="preserve">
+        <value>Lower back</value>
+    </data>
+    <data name="Dorsales" xml:space="preserve">
+        <value>Bibs</value>
+    </data>
+    <data name="Trapecio" xml:space="preserve">
+        <value>Trapezoid</value>
+    </data>
+    <data name="Abdominales" xml:space="preserve">
+        <value>Abs</value>
+    </data>
+    <data name="Pecho" xml:space="preserve">
+        <value>Chest</value>
+    </data>
+    <data name="Brazos" xml:space="preserve">
+        <value>Arms</value>
+    </data>
+    <data name="Extra" xml:space="preserve">
+        <value>Extra</value>
+    </data>
+    <data name="LeyendoQR" xml:space="preserve">
+        <value>QR Scanning...</value>
+    </data>
+    <data name="QRIncorrecto" xml:space="preserve">
+        <value>The QR Code is incorrect</value>
+    </data>
+    <data name="SoyNuevo" xml:space="preserve">
+        <value>I'm New</value>
+    </data>
+    <data name="DispositivoYaAsignado" xml:space="preserve">
+        <value>ERROR: device is already assigned to a trainer</value>
+    </data>
+    <data name="QRErroneo" xml:space="preserve">
+        <value>ERROR: Invalid QR code</value>
+    </data>
+    <data name="DispositivoAsignado" xml:space="preserve">
+        <value>The device has been assigned successfully</value>
+    </data>
+    <data name="Validar" xml:space="preserve">
+        <value>Validate</value>
+    </data>
+    <data name="IntroduzcaEmail" xml:space="preserve">
+        <value>Enter your Email</value>
+    </data>
+    <data name="IntroduzcaEmailUsuarioValidar" xml:space="preserve">
+        <value>Enter the email of the user you want to link</value>
+    </data>
+    <data name="Validacion" xml:space="preserve">
+        <value>Validation</value>
+    </data>
+    <data name="CodigoVerificacion" xml:space="preserve">
+        <value>Verification code</value>
+    </data>
+    <data name="IntroduzcaCodigo" xml:space="preserve">
+        <value>Enter the code received to validate your email</value>
+    </data>
+    <data name="Comprobar" xml:space="preserve">
+        <value>Check</value>
+    </data>
+    <data name="Pais" xml:space="preserve">
+        <value>Country</value>
+    </data>
+    <data name="IntroduzcaDatosRegistro" xml:space="preserve">
+        <value>Introduce your register data</value>
+    </data>
+    <data name="ComprobandoDispositivo" xml:space="preserve">
+        <value>Checking Device...</value>
+    </data>
+    <data name="EmailObligatorio" xml:space="preserve">
+        <value>You need complete email</value>
+    </data>
+    <data name="ComprobandoEmail" xml:space="preserve">
+        <value>Sending validation email...</value>
+    </data>
+    <data name="EnvioEmailValidacion" xml:space="preserve">
+        <value>We have sent an email with an activation code.</value>
+    </data>
+    <data name="PreguntaCancelarProceso" xml:space="preserve">
+        <value>Are you sure to cancel the process?</value>
+    </data>
+    <data name="PinObligatorio" xml:space="preserve">
+        <value>You must fill in the verification code</value>
+    </data>
+    <data name="ComprobandoPin" xml:space="preserve">
+        <value>Checking activation code...</value>
+    </data>
+    <data name="PinValido" xml:space="preserve">
+        <value>Your activation code is valid, fill in the details to finish your registration</value>
+    </data>
+    <data name="PinNoValido" xml:space="preserve">
+        <value>The activation code not is correct</value>
+    </data>
+    <data name="PasswordObligatorio" xml:space="preserve">
+        <value>The password is required</value>
+    </data>
+    <data name="NombreObligatorio" xml:space="preserve">
+        <value>The name is required</value>
+    </data>
+    <data name="DescripcionObligatoria" xml:space="preserve">
+        <value>The description is required</value>
+    </data>
+    <data name="TracksObligatorios" xml:space="preserve">
+        <value>The number of sets must be between 1 and 10</value>
+    </data>
+    <data name="ApellidosObligatorio" xml:space="preserve">
+        <value>The surname is required</value>
+    </data>
+    <data name="MovilObligatorio" xml:space="preserve">
+        <value>The phone is required</value>
+    </data>
+    <data name="PaisObligatorio" xml:space="preserve">
+        <value>The country is required</value>
+    </data>
+    <data name="RegistrandoTrainerYDevice" xml:space="preserve">
+        <value>Registering Trainer and Device...</value>
+    </data>
+    <data name="Progreso" xml:space="preserve">
+        <value>Progress</value>
+    </data>
+    <data name="Ejercicios" xml:space="preserve">
+        <value>Excercices</value>
+    </data>
+    <data name="NombreIngles" xml:space="preserve">
+        <value>English Name</value>
+    </data>
+    <data name="DescripcionIngles" xml:space="preserve">
+        <value>English Description</value>
+    </data>
+    <data name="Video" xml:space="preserve">
+        <value>Video</value>
+    </data>
+    <data name="TiempoPreparacion" xml:space="preserve">
+    <value>Preparation Time</value>
+</data>
+<data name="TiempoDescanso" xml:space="preserve">
+    <value>Rest Time</value>
+</data>
+<data name="TiempoDescansoMin" xml:space="preserve">
+    <value>Between the previous set and the current one</value>
+</data>
+<data name="WorkingTime" xml:space="preserve">
+    <value>Working Time</value>
+</data>
+<data name="RestingTime" xml:space="preserve">
+    <value>Resting Time</value>
+</data>
+<data name="Frecuencia" xml:space="preserve">
+    <value>Frequency</value>
+</data>
+<data name="Atenuacion" xml:space="preserve">
+    <value>Attenuation</value>
+</data>
+<data name="AtenuacionMin" xml:space="preserve">
+    <value>Resting percentage over working intensity</value>
+</data>
+<data name="EjerciciosSerie" xml:space="preserve">
+    <value>Exercises</value>
+</data>
+<data name="EjerciciosSerieMin" xml:space="preserve">
+    <value>Number of excercises in this set</value>
+</data>
+<data name="Series" xml:space="preserve">
+    <value>Sets</value>
+</data>
+<data name="Serie" xml:space="preserve">
+    <value>Set</value>
+</data>
+<data name="SeriesMin" xml:space="preserve">
+    <value>Number of Times Exercise Group is Repeated</value>
+</data>
+<data name="Ciclos" xml:space="preserve">
+    <value>Cycles</value>
+</data>
+<data name="CiclosMin" xml:space="preserve">
+    <value>Number of times the series is repeated</value>
+</data>
+<data name="DescansoSeries" xml:space="preserve">
+    <value>Rest Between Sets</value>
+</data>
+<data name="Descanso" xml:space="preserve">
+    <value>Resting</value>
+</data>
+<data name="RampaSubida" xml:space="preserve">
+    <value>Ramp Up</value>
+</data>
+<data name="de" xml:space="preserve">
+    <value>of</value>
+</data>
+<data name="NumeroTracks" xml:space="preserve">
+    <value>Number of sets</value>
+</data>
+<data name="ConfiguracionTracks" xml:space="preserve">
+    <value>Sets configuration</value>
+</data>
+<data name="Anterior" xml:space="preserve">
+    <value>Previous</value>
+</data>
+<data name="ZonaHRObj" xml:space="preserve">
+        <value>Objective HR Zone</value>
+    </data>
+<data name="TiempoExcedido" xml:space="preserve">
+        <value>The duration of the training cannot be more than 60 minutes</value>
+    </data>
+    <data name="SinAsignar" xml:space="preserve">
+        <value>Not assigned</value>
+    </data>
+    <data name="NocoincidenTiempos" xml:space="preserve">
+        <value>The working time of each series is %1 seconds and the current configuration is %2 seconds. You must adjust the exercise settings</value>
+    </data>
+    <data name="EjerciciosObligatorios" xml:space="preserve">
+        <value>You must assign all exercises</value>
+    </data>
+    <data name="PlanEntrenamientoActualizado" xml:space="preserve">
+        <value>Training Plan has been updated</value>
+    </data>
+    <data name="PreguntaEliminarPlan" xml:space="preserve">
+        <value>Are you sure to archive this training plan?</value>
+    </data>
+    <data name="PreguntaEliminarEntrenamiento" xml:space="preserve">
+        <value>Are you sure to archive this training?</value>
+    </data>
+    <data name="PlanEntrenamientoEliminado" xml:space="preserve">
+        <value>Training Plan has been archived</value>
+    </data>
+    <data name="EntrenamientoEliminado" xml:space="preserve">
+        <value>Training has been archived</value>
+    </data>
+    <data name="TrainerEliminado" xml:space="preserve">
+        <value>Your Account has been deleted</value>
+    </data>
+    <data name="Finalizado" xml:space="preserve">
+        <value>Ended</value>
+    </data>
+    <data name="TiempoWorkingTime" xml:space="preserve">
+        <value>T. WorkingTime</value>
+    </data>
+    <data name="TPreparacion" xml:space="preserve">
+        <value>T. Preparation</value>
+    </data>
+    <data name="FrecuenciaWorkingTime" xml:space="preserve">
+        <value>Fr. WorkingTime</value>
+    </data>
+    <data name="TiempoRestingTime" xml:space="preserve">
+        <value>T. RestingTime</value>
+    </data>
+    <data name="FrecuenciaRestingTime" xml:space="preserve">
+        <value>Fr. RestingTime</value>
+    </data>
+    <data name="AtenuacionRestingTime" xml:space="preserve">
+        <value>At. RestingTime</value>
+    </data>
+    <data name="CrearEntrenamiento" xml:space="preserve">
+        <value>Create Training</value>
+    </data>
+    <data name="Nivel" xml:space="preserve">
+        <value>Level</value>
+    </data>
+    <data name="PreguntaClonarTrack" xml:space="preserve">
+        <value>Do you want to copy the values from the previous set?</value>
+    </data>
+    <data name="PreguntaClonarEjerciciosTrack" xml:space="preserve">
+        <value>Do you also want to copy the exercises?</value>
+    </data>
+    <data name="ConfiguracionTerminada" xml:space="preserve">
+        <value>Setting Ended</value>
+    </data>
+    <data name="PreguntaGuardarEjercicio" xml:space="preserve">
+        <value>Do you want save the excercise?</value>
+    </data>
+    <data name="PreguntaGuardarOtroEjercicio" xml:space="preserve">
+        <value>Do you want save other excercise?</value>
+    </data>
+    <data name="ProximoEjercicio" xml:space="preserve">
+        <value>Next Excercise</value>
+    </data>
+    <data name="InicioSerie1" xml:space="preserve">
+        <value>Start set 1</value>
+    </data>
+    <data name="FinalSerie1" xml:space="preserve">
+        <value>End set 1</value>
+    </data>
+    <data name="InicioRestoSeries" xml:space="preserve">
+        <value>Start other sets</value>
+    </data>
+    <data name="FinalRestoSeries" xml:space="preserve">
+        <value>End other sets</value>
+    </data>
+    <data name="InicioMute" xml:space="preserve">
+        <value>Start mute</value>
+    </data>
+    <data name="FinalMute" xml:space="preserve">
+        <value>End mute</value>
+    </data>
+    <data name="PlanConClientes" xml:space="preserve">
+        <value>THIS TRAINING PLAN HAS ACTIVE CLIENTS, IF YOU ARCHIVE IT, ALL CLIENTS' TRAINING PLANS WILL BE CANCELED</value>
+    </data>
+    <data name="ActualizandoMenu" xml:space="preserve">
+        <value>Updating Menu...</value>
+    </data>
+    <data name="ActualizandoEntrenamientos" xml:space="preserve">
+        <value>Updating trainings...</value>
+    </data>
+    <data name="DescargandoPlanesEntrenamiento" xml:space="preserve">
+        <value>Downloading Training plans...</value>
+    </data>
+    <data name="VariosMinutos" xml:space="preserve">
+        <value>This operation may take several minutes</value>
+    </data>
+    <data name="SerieMay" xml:space="preserve">
+        <value>SET</value>
+    </data>
+    <data name="Entrenamiento" xml:space="preserve">
+        <value>Session</value>
+    </data>
+    <data name="ErrorCargaEntrenamiento" xml:space="preserve">
+        <value>There was an error loading the training, please try again</value>
+    </data>
+    <data name="ErrorPlanYaAsignado" xml:space="preserve">
+        <value>This customer is already assigned one training plan.</value>
+    </data>
+    <data name="ErrorAsignandoPlanesYaAsignados" xml:space="preserve">
+        <value>The training plan has not been assigned to clients %1, because they already had the training plan active.</value>
+    </data>
+    <data name="ErrorAsignandoPlanYaAsignado" xml:space="preserve">
+        <value>The training plan has not been assigned to client %1, because they already had the training plan active.</value>
+    </data>
+    <data name="EsperandoUsuario" xml:space="preserve">
+        <value>Waiting Client...</value>
+    </data>
+    <data name="UsuarioVinculado" xml:space="preserve">
+        <value>The client linked successfully</value>
+    </data>
+    <data name="UsuarioNoVinculado" xml:space="preserve">
+        <value>ERROR: The client has not linked correctly</value>
+    </data>
+    <data name="CesionRealizada" xml:space="preserve">
+        <value>The client has acepted the workout</value>
+    </data>
+    <data name="CesionRechazada" xml:space="preserve">
+        <value>ERROR: The client has rejected the workout</value>
+    </data>
+    <data name="Nube" xml:space="preserve">
+        <value>Cloud</value>
+    </data>
+    <data name="VideoGrande" xml:space="preserve">
+        <value>The file is very big, the maximum size is 3Mb</value>
+    </data>
+    <data name="EjercicioMin" xml:space="preserve">
+        <value>Excer.</value>
+    </data>
+    <data name="EscaneeQR" xml:space="preserve">
+        <value>Scan the QR of your device</value>
+    </data>
+    <data name="DescargandoDatosEnSegundoPlano" xml:space="preserve">
+        <value>The following data is being downloaded in the background:</value>
+    </data>
+    <data name="VideosEjercicios" xml:space="preserve">
+        <value>Exercise videos</value>
+    </data>
+    <data name="EntrenamientosClientes" xml:space="preserve">
+        <value>Customers trainings</value>
+    </data>
+    <data name="PlanesClientes" xml:space="preserve">
+        <value>Customers trainings plans</value>
+    </data>
+    <data name="PreguntaEliminarEjercicio" xml:space="preserve">
+        <value>Do you want remove the excercise?</value>
+    </data>
+    <data name="Eliminando" xml:space="preserve">
+    <value>Removing...</value>
+  </data>
+  <data name="Suscripciones" xml:space="preserve">
+    <value>Suscriptions</value>
+  </data>
+  <data name="SinEntrenamientos" xml:space="preserve">
+        <value>No Workouts</value>
+    </data>
+    <data name="VelocidadMaxima" xml:space="preserve">
+        <value>Speed Max</value>
+    </data>
+    <data name="VelocidadMedia" xml:space="preserve">
+        <value>Speed Med</value>
+    </data>
+    <data name="Rom" xml:space="preserve">
+        <value>Range of move</value>
+    </data>
+    <data name="PreprarseCalibracion" xml:space="preserve">
+        <value>Prepare to calibrate the sensors</value>
+    </data>
+    <data name="PreprarseCalibrando" xml:space="preserve">
+        <value>Performing sensor calibration</value>
+    </data>
+    <data name="PreprarseCalibracionRealizada" xml:space="preserve">
+        <value>Calibration completed successfully</value>
+    </data>
+    <data name="UltimaRep" xml:space="preserve">
+        <value>Last</value>
+    </data>
+    <data name="FCMax" xml:space="preserve">
+        <value>HR Máx</value>
+    </data>
+    <data name="FCMed" xml:space="preserve">
+        <value>HR Med</value>
+    </data>
+    <data name="VelocidadMax" xml:space="preserve">
+        <value>Speed Max</value>
+    </data>
+    <data name="VelocidadMed" xml:space="preserve">
+        <value>Speed Med</value>
+    </data>
+    <data name="CompararEntreno" xml:space="preserve">
+        <value>To compare workouts, you must select the same workout</value>
+    </data>
+    <data name="Material" xml:space="preserve">
+        <value>Material</value>
+    </data>
+    <data name="CualidadFisica" xml:space="preserve">
+        <value>Physical Q.</value>
+    </data>
+    <data name="ZonaCorporal" xml:space="preserve">
+        <value>Body Zone</value>
+    </data>
+    <data name="DispositivoNoValido" xml:space="preserve">
+        <value>This device is not valid for WiemsPlus</value>
+    </data>
+    <data name="TrajeNoValido" xml:space="preserve">
+        <value>This suit is not valid for WiemsPlus</value>
+    </data>
+    <data name="EMS" xml:space="preserve">
+        <value>EMS</value>
+    </data>
+    <data name="Pulsometro" xml:space="preserve">
+        <value>Heart Rate Monitor</value>
+    </data>
+    <data name="AcelerometroCintura" xml:space="preserve">
+        <value>Waist Accelerometer</value>
+    </data>
+    <data name="AcelerometroMovil" xml:space="preserve">
+        <value>Mobile Accelerometer</value>
+    </data>
+    <data name="EMGPiernasDelantero" xml:space="preserve">
+        <value>>EMG Front Legs</value>
+    </data>
+    <data name="EMGPiernasTrasero" xml:space="preserve">
+        <value>EMG Back Legs</value>
+    </data>
+    <data name="EMGPecho" xml:space="preserve">
+        <value>EMG Chest</value>
+    </data>
+    <data name="VastoInterno" xml:space="preserve">
+        <value>Inner Vastus</value>
+    </data>
+    <data name="VastoExterno" xml:space="preserve">
+        <value>Outer Vastus</value>
+    </data>
+    <data name="Tibial" xml:space="preserve">
+        <value>Tibial</value>
+    </data>
+    <data name="Soleo" xml:space="preserve">
+        <value>Soleus</value>
+    </data>
+    <data name="TransversoAbdominal" xml:space="preserve">
+        <value>Transverse Abdominal</value>
+    </data>
+    <data name="RectoAbdominal" xml:space="preserve">
+        <value>Abdominal Rect</value>
+    </data>
+    <data name="Femoral" xml:space="preserve">
+        <value>Femoral</value>
+    </data>
+    <data name="GluteoMayor" xml:space="preserve">
+        <value>Glute Maior</value>
+    </data>
+    <data name="GluteoMedio" xml:space="preserve">
+        <value>Glute Medium</value>
+    </data>
+    <data name="GluteoMenor" xml:space="preserve">
+        <value>Glute Minor</value>
+    </data>
+    <data name="CuadradoLumbar" xml:space="preserve">
+        <value>Lumbar Square</value>
+    </data>
+    <data name="Deltoides" xml:space="preserve">
+        <value>Deltoids</value>
+    </data>
+    <data name="MusculoVacio" xml:space="preserve">
+        <value>Empty Muscle</value>
+    </data>
+    <data name="IniciarPruebaHRV" xml:space="preserve">
+        <value>Do you want to start the HRV test?</value>
+    </data>
+    <data name="CancelarPruebaHRV" xml:space="preserve">
+        <value>Do you want to stop the HRV test?</value>
+    </data>
+    <data name="GuardarPruebaHRV" xml:space="preserve">
+        <value>Do you want to save the collected data?</value>
+    </data>
+    <data name="CancelarPruebaEMG" xml:space="preserve">
+        <value>Do you want to stop the EMG test</value>
+    </data>
+    <data name="Calculando" xml:space="preserve">
+        <value>Calculating...</value>
+    </data>
+    <data name="DebeSeleccionarHRVTest" xml:space="preserve">
+        <value>You must select at least one HRV test</value>
+    </data>
+    <data name="DebeSeleccionarTestHRVMaximo" xml:space="preserve">
+        <value>You must select a maximum of three HRV tests</value>
+    </data>
+    <data name="DebeSeleccionarEMGTest" xml:space="preserve">
+        <value>You must select at least one EMG test</value>
+    </data>
+    <data name="DebeSeleccionarTestEMGMaximo" xml:space="preserve">
+        <value>You must select a maximum of three EMG tests</value>
+    </data>
+    <data name="MismoMusculo" xml:space="preserve">
+        <value>You must select tests with the same muscle</value>
+    </data>
+    <data name="InicioElektra" xml:space="preserve">
+        <value>Welcome to Elektra, the WiemsPro AI, how can I help you?</value>
+    </data>
+    <data name="Pensando" xml:space="preserve">
+        <value>Thinking...</value>
+    </data>
+    <data name="Generico" xml:space="preserve">
+        <value>Generic</value>
+    </data>
+    <data name="Sentadilla" xml:space="preserve">
+        <value>Squat.</value>
+    </data>
+    <data name="Flexion" xml:space="preserve">
+        <value>Flexion</value>
+    </data>
+    <data name="PressBanca" xml:space="preserve">
+        <value>Press Bench</value>
+    </data>
+    <data name="HipHrust" xml:space="preserve">
+        <value>Hip Thrust</value>
+    </data>
+    <data name="PesoMuerto" xml:space="preserve">
+        <value>Dead Weight</value>
+    </data>
+    <data name="PressMilitar" xml:space="preserve">
+        <value>Military Press</value>
+    </data>
+    <data name="RemoInclinado" xml:space="preserve">
+        <value>Bent-over Row</value>
+    </data>
+    <data name="CurlBiceps" xml:space="preserve">
+        <value>Curl Biceps</value>
+    </data>
+</root>
+

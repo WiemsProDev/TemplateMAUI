@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="Template.Views.LoginTrainerView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:trans="clr-namespace:Template.Utils;assembly=Template"
+    NavigationPage.HasNavigationBar="False"
+    NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{DynamicResource GrisOscuro}"
+              RowDefinitions="Auto,*">
+            <Image
+                Margin="50,0,50,0"
+                HorizontalOptions="FillAndExpand"
+                Aspect="AspectFit"
+                Source="logo.png"
+                HeightRequest="150"
+                VerticalOptions="Start" />
+            <Frame BackgroundColor="{DynamicResource Negro}" VerticalOptions="FillAndExpand"
+                   Margin="0,0,0,-100" HasShadow="False" CornerRadius="0"
+                   Grid.Row="1">
+                <VerticalStackLayout
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Start">
+                    <Label Margin="10,10,0,0"
+                        Text="{trans:Translate Email}"
+                           Style="{DynamicResource LabelProfileExplain}"/>
+                    <Frame HeightRequest="50" CornerRadius="25"
+                        Style="{DynamicResource FrameLabelProfile}">
+                        <Entry
+                            Keyboard="Email"
+                            Text="{Binding Usuario}"
+                            Style="{DynamicResource EntryProfile}"/>
+                    </Frame>
+                    <Label Margin="10,20,0,0"
+                        Text="{trans:Translate Password}"
+                           Style="{DynamicResource LabelProfileExplain}"/>
+                    <Frame HeightRequest="50" CornerRadius="25"
+                        Style="{DynamicResource FrameLabelProfile}">
+                        <Grid>
+                            <Entry
+                                IsPassword="{Binding EsPwd, Mode=TwoWay}"
+                                Text="{Binding PassWord}"
+                                Style="{DynamicResource EntryProfile}"/>
+                            <ImageButton
+                                BackgroundColor="Transparent"
+                                Command="{Binding VerPwd}"
+                                HeightRequest="40"
+                                WidthRequest="20"
+                                VerticalOptions="FillAndExpand"
+                                HorizontalOptions="End"
+                                Source="{Binding ImagenPass}" />
+                        </Grid>
+                    </Frame>
+                    <HorizontalStackLayout Margin="0,20,0,20">
+                        <CheckBox
+                            HorizontalOptions="Start"
+                            IsChecked="{Binding Recordarme}"
+                            Color="{DynamicResource Azul}" />
+                        <Label
+                            Margin="{OnPlatform Default='5,0,0,0', Android='5,0,0,0'}"
+                            BackgroundColor="Transparent"
+                            FontFamily="WorkSans-Light"
+                            FontSize="{OnPlatform iOS=16, Android=14}"
+                            HorizontalOptions="StartAndExpand"
+                            Text="{trans:Translate Recordarme}"
+                            TextColor="{DynamicResource Azul}"
+                            VerticalOptions="Center" />
+                    </HorizontalStackLayout>
+                    <Button
+                        Margin="0,30,0,0"
+                         Text="{trans:Translate Entrar}"
+                        Style="{DynamicResource BotonGuardar}"
+                        Command="{Binding BtnLogin}"/>
+                </VerticalStackLayout>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

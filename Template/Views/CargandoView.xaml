@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Template.Views.CargandoView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="{DynamicResource Negro}"
+    NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid
+            BackgroundColor="{DynamicResource GrisOscuro}"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <Image Source="loading.gif" IsAnimationPlaying="True" VerticalOptions="Center" HorizontalOptions="Center"
+                   Margin="100"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

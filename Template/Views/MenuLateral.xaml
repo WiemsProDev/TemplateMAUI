@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Template.Views.MenuLateral"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title=" "
+    IconImageSource="menu"
+    xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    x:Name="miMenu">
+    <Grid BackgroundColor="{DynamicResource Negro}" RowDefinitions="180,*,Auto">
+        <VerticalStackLayout BackgroundColor="{DynamicResource GrisOscuro}" Margin="0,0,0,-10">
+            <Image
+             Margin="0,60,0,0"
+            VerticalOptions="Start"
+            HeightRequest="95"
+            Aspect="AspectFit"
+            Source="logo">
+        </Image>
+        <Label Text="{Binding Version}" Margin="10,0" FontSize="12" TextColor="White" VerticalOptions="End" FontFamily="WorkSans-Light"/>
+        </VerticalStackLayout>
+        <ScrollView Grid.Row="1"
+                    VerticalOptions="FillAndExpand">
+            <VerticalStackLayout
+                VerticalOptions="FillAndExpand"
+                x:Name="navigationDrawerList"
+                BackgroundColor="{DynamicResource Negro}"
+                Padding="0,20,0,0"
+                BindableLayout.ItemsSource="{Binding ListaMenuByRol}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                            <mct:Expander>
+                                <mct:Expander.Header>
+                                    <Grid ColumnDefinitions="25,*,45" HeightRequest="{OnPlatform Default=47, Android=42}"
+                                        Padding="30,0,0,0"
+                                        ColumnSpacing="25"
+                                        VerticalOptions="FillAndExpand">
+                                        <Image
+                                            Grid.Column="0"
+                                            HeightRequest="{OnPlatform Android=20}"
+                                            Source="{Binding IconSource}"
+                                            VerticalOptions="CenterAndExpand"
+                                            WidthRequest="{OnPlatform Android=20}" />
+
+                                        <Label
+                                            Grid.Column="1"
+                                            FontFamily="WorkSans-Medium"
+                                            FontSize="{OnPlatform Default=14, Android=12}"
+                                            Text="{Binding Title}"
+                                            TextColor="{DynamicResource Blanco}"
+                                            VerticalOptions="Center">
+                                                <Label.Triggers>
+                                                    <DataTrigger
+                                                        Binding="{Binding Selec}"
+                                                        TargetType="Label"
+                                                        Value="True">
+                                                        <Setter Property="TextColor" Value="{DynamicResource Azul}" />
+                                                    </DataTrigger>
+                                                </Label.Triggers>
+                                            </Label>
+                                        <Image
+                                            Grid.Column="2"
+                                            HeightRequest="{OnPlatform Default=25, Android=20}"
+                                            IsVisible="{Binding TieneHijos}"
+                                            Margin="0,0,20,0"
+                                            Source="expand.png"
+                                            VerticalOptions="Center"
+                                            WidthRequest="{OnPlatform Default=25, Android=20}" >
+                                                <Image.Triggers>
+                                                    <DataTrigger TargetType="Image"
+                                                                 Binding="{Binding Source={RelativeSource AncestorType={x:Type mct:Expander}}, Path=IsExpanded}"
+                                                                 Value="True">
+                                                        <Setter Property="Source"
+                                                                Value="collapsed.png" />
+                                                    </DataTrigger>
+                                                </Image.Triggers>
+                                            </Image>
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Path=BindingContext.ItemSelected, Source={x:Reference Name=miMenu}}" CommandParameter="{Binding .}"/>
+                                        </Grid.GestureRecognizers>
+                                    </Grid>
+                                </mct:Expander.Header>
+                                <VerticalStackLayout  
+                                    Margin="20,0,0,0"
+                                    BackgroundColor="Transparent"
+                                    BindableLayout.ItemsSource="{Binding Hijos}">
+                                    <BindableLayout.ItemTemplate>
+                                        <DataTemplate>
+                                                <HorizontalStackLayout
+                                                    HeightRequest="{OnPlatform Default=47, Android=42}"
+                                                    Padding="50,0,0,0"
+                                                    VerticalOptions="FillAndExpand">
+                                                    <Image
+                                                        HeightRequest="{OnPlatform Android=20}"
+                                                        Source="{Binding IconSource}"
+                                                        VerticalOptions="CenterAndExpand"
+                                                        WidthRequest="{OnPlatform Android=20}" />
+
+                                                    <Label
+                                                        FontAttributes="Bold"
+                                                        FontFamily="WorkSans-Medium"
+                                                        FontSize="{OnPlatform Default=14, Android=12}"
+                                                        Text="{Binding Title}"
+                                                        TextColor="{DynamicResource Blanco}"
+                                                        VerticalOptions="Center">
+                                                        <Label.Triggers>
+                                                            <DataTrigger
+                                                                Binding="{Binding Selec}"
+                                                                TargetType="Label"
+                                                                Value="True">
+                                                                <Setter Property="TextColor" Value="{DynamicResource Azul}" />
+                                                            </DataTrigger>
+                                                        </Label.Triggers>
+                                            </Label>
+                                                    <HorizontalStackLayout.GestureRecognizers>
+                                                        <TapGestureRecognizer Command="{Binding Path=BindingContext.ItemSelected, Source={x:Reference Name=miMenu}}" CommandParameter="{Binding .}"/>
+                                                    </HorizontalStackLayout.GestureRecognizers>
+                                                </HorizontalStackLayout>
+                                        </DataTemplate>
+                                    </BindableLayout.ItemTemplate>
+                                </VerticalStackLayout>
+                            </mct:Expander>
+                            <!--  Main design for our menu items  -->
+                        
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </VerticalStackLayout>
+            </ScrollView>
+        <Label Text="{Binding Nombre}"
+               Grid.Row="2"
+                Margin="0,0,0,35" HorizontalTextAlignment="Center" FontSize="20" TextColor="White" VerticalOptions="End" FontFamily="WorkSans-Medium"/>
+
+    </Grid>
+
+</ContentPage>
