@@ -16,7 +16,7 @@ using Template.Interfaces;
 
 namespace Template.ViewModels
 {
-    public partial class LoginTrainerViewModel : ViewModelBase
+    public partial class LoginViewModel : ViewModelBase
     {
         #region Propiedades
 
@@ -40,7 +40,7 @@ namespace Template.ViewModels
         private bool recordarme = true;
 
         #endregion
-        public LoginTrainerViewModel()
+        public LoginViewModel()
         {
             try
             {
@@ -99,7 +99,8 @@ namespace Template.ViewModels
         {
             try
             {
-
+                Preferences.Set("RUsuario", Usuario);
+                Preferences.Set("RPass", PassWord);
                 await initLogin();
                 if (resultLogin)
                 {
@@ -170,7 +171,7 @@ namespace Template.ViewModels
 
                             Debug.WriteLine("\nVCR-Start");
                             App.userdialog.ShowLoading(AppResources.Accediendo, MaskType.Black);
-                            if (await App.ResponseWS.LoginTrainer(Usuario, PassWord) == false)
+                            if (await App.ResponseWS.Login(Usuario, PassWord) == false)
                             {
                                 mensajeUsuario = AppResources.ErrorLogin;
                                 resultLogin = false;

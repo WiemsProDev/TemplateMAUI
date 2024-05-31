@@ -30,6 +30,7 @@ namespace Template.Utils
         public ClientModel Client;
         public SessionModel Session;
         public TrainerModel Trainer;
+        public ClientModel Usuario;
         public string Error;
 
         private string installID;

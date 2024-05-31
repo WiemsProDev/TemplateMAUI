@@ -28,5 +28,63 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/appicon.appiconset</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>qoorder.com</key>
+			<dict/>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+			<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+			<true/>
+			<key>NSTemporaryExceptionMinimumTLSVersion</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Conexión con dispositivo WiemsPlus</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Conexión con dispositivo WiemsPlus</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Conexión con dispositivo WiemsPlus</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Conexión con dispositivo WiemsPlus</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Conexión con dispositivo WiemsPlus</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+		<string>processing</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.wiemspro.wiemsPlus</string>
+	</array>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>New Entry</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.11</string>
+	<key>CFBundleDisplayName</key>
+	<string>WiemsPlus</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Lector QR</string>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key></key>
+	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Seleccion de imagenes para soporte</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/appicon.appiconset</string>
 </dict>
 </plist>

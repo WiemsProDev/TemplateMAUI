@@ -100,7 +100,7 @@ namespace Template.Utils
                 response = await client.GetAsync(requestUri);
                 if (response.StatusCode == HttpStatusCode.Unauthorized)
                 {
-                    await GetToken(Preferences.Get("RUsuario", ""), Preferences.Get("RPass", ""));
+                    await GetToken(Preferences.Get("RUsuario", ""), Preferences.Get("RPass", ""),false);
                     httpClientHandler = new HttpClientHandler();
                     if (DeviceInfo.Platform == DevicePlatform.Android)
                         httpClientHandler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => { return true; };
@@ -146,7 +146,7 @@ namespace Template.Utils
                 response = await client.GetAsync(requestUri);
                 if (response.StatusCode == HttpStatusCode.Unauthorized)
                 {
-                    await GetToken(Preferences.Get("RUsuario", ""), Preferences.Get("RPass", ""));
+                    await GetToken(Preferences.Get("RUsuario", ""), Preferences.Get("RPass", ""),false);
                     handler = new();
                     handler.ServerCertificateCustomValidationCallback +=
                     (sender, certificate, chain, errors) =>
@@ -177,7 +177,7 @@ namespace Template.Utils
             try
             {
                 if (App.horaInicio.Ticks < DateTime.Now.AddMinutes(-5).Ticks)
-                    await GetToken(Preferences.Get("RUsuario", ""), Preferences.Get("RPass", ""));
+                    await GetToken(Preferences.Get("RUsuario", ""), Preferences.Get("RPass", ""),false);
                 HttpClientHandler handler = new();
                 handler.ServerCertificateCustomValidationCallback +=
                 (sender, certificate, chain, errors) =>
@@ -225,7 +225,7 @@ namespace Template.Utils
                 response = await client.PostAsync(requestUri, new StringContent(request, Encoding.UTF8, "application/json"));
                 if (response.StatusCode == HttpStatusCode.Unauthorized)
                 {
-                    await GetToken(Preferences.Get("RUsuario", ""), Preferences.Get("RPass", ""));
+                    await GetToken(Preferences.Get("RUsuario", ""), Preferences.Get("RPass", ""),false);
                     httpClientHandler = new HttpClientHandler();
                     if (DeviceInfo.Platform == DevicePlatform.Android)
                         httpClientHandler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => { return true; };
@@ -284,7 +284,7 @@ namespace Template.Utils
             }
 
         }
-        private async Task<bool> GetToken(string user, string pass)
+        private async Task<bool> GetToken(string user, string pass, bool encrypt = true)
         {
             try
             {
@@ -297,7 +297,7 @@ namespace Template.Utils
                 client.DefaultRequestHeaders.Add("locale", App.spanish ? "es" : "en");
                 string appVersion = "1.8.39";
 
-                LoginModel login = new(user, appVersion, GetMD5string(pass));
+                LoginModel login = new LoginModel(user, appVersion, (encrypt == true) ? GetMD5string(pass) : pass);
 
                 string log = JsonConvert.SerializeObject(login);
                 var cont = new StringContent(JsonConvert.SerializeObject(login), Encoding.UTF8, "application/json");
@@ -358,7 +358,7 @@ namespace Template.Utils
         }
         #endregion
         #region Login y Registro
-        internal async Task<bool> LoginTrainer(string user, string pass)
+        internal async Task<bool> Login(string user, string pass)
         {
             try
             {

@@ -306,7 +306,7 @@ namespace Template.Services
             _mappings.Add(typeof(HomeViewModel), typeof(HomeView));
             _mappings.Add(typeof(MenuLateralViewModel), typeof(MenuLateral));
             _mappings.Add(typeof(MainPageViewModel), typeof(MainPage));
-            _mappings.Add(typeof(LoginTrainerViewModel), typeof(LoginTrainerView));
+            _mappings.Add(typeof(LoginViewModel), typeof(LoginView));
         }
 
         public Task NavigateToAsyncWithoutMenu<TViewModel>() where TViewModel : ViewModelBase

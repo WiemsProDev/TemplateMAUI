@@ -3,9 +3,9 @@ using Microsoft.Maui;
 
 namespace Template.Views
 {
-    public partial class LoginTrainerView : ContentPage
+    public partial class LoginView : ContentPage
     {
-        public LoginTrainerView()
+        public LoginView()
         {
             InitializeComponent();
         }

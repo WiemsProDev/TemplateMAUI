@@ -57,7 +57,7 @@ namespace Template.Models.JSON
     {
         public int resultado { get; set; }
         public string mensaje { get; set; }
-
+public ClientModel cliente { get; set; }
         public TrainerJSON entrenador { get; set; }
         public List<DeviceModel> dispositivos { get; set; }
         public List<DeviceHRMModel> devicesHRM { get; set; }

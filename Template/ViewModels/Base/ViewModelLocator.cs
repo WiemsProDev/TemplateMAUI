@@ -27,7 +27,7 @@ namespace Template.ViewModels.Base
             _unityContainer.RegisterType<HomeViewModel>();
             _unityContainer.RegisterType<MainPageViewModel>();
             _unityContainer.RegisterType<MenuLateralViewModel>();
-            _unityContainer.RegisterType<LoginTrainerViewModel>();
+            _unityContainer.RegisterType<LoginViewModel>();
 
             // Services
             _unityContainer.RegisterType<INavigationService, NavigationService>();

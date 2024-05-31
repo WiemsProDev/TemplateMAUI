@@ -172,7 +172,7 @@ public partial class App : Microsoft.Maui.Controls.Application
             {
                 if (!Preferences.Get("Usuario", "").Equals(""))
                 {
-                    if (await ResponseWS.LoginTrainer(Preferences.Get("Usuario", ""), Preferences.Get("Pass", "")))
+                    if (await ResponseWS.Login(Preferences.Get("Usuario", ""), Preferences.Get("Pass", "")))
                     {
                         userdialog.ShowLoading(AppResources.CargandoPerfil, MaskType.Black);
                         if (await ResponseWS.LoginWithToken() == false)

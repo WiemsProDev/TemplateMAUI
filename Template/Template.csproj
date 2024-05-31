@@ -29,7 +29,7 @@
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
-
+		<GenerateSatelliteAssembliesForCore>true</GenerateSatelliteAssembliesForCore>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
@@ -120,9 +120,13 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <Compile Update="Resources\AppResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
 	    <DependentUpon>AppResources.resx</DependentUpon>
 	  </Compile>
 	  <Compile Update="Resources\AppResources.es.Designer.cs">
+	    <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
 	    <DependentUpon>AppResources.es.resx</DependentUpon>
 	  </Compile>
 	</ItemGroup>

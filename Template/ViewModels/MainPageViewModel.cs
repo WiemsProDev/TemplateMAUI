@@ -43,7 +43,7 @@ namespace Template.ViewModels
                     break;
                 default:
                     //result = Task.WhenAll(_menuLateralViewModel.InitializeAsync(navigationData), NavigationService.NavigateToAsync<PreLoginViewModel>());
-                    result = Task.WhenAll(_menuLateralViewModel.InitializeAsync(navigationData), NavigationService.NavigateToAsyncWithoutMenu<LoginTrainerViewModel>());
+                    result = Task.WhenAll(_menuLateralViewModel.InitializeAsync(navigationData), NavigationService.NavigateToAsyncWithoutMenu<LoginViewModel>());
                     break;
             }
             return result;

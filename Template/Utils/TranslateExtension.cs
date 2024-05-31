@@ -11,7 +11,7 @@ namespace Template.Utils
     public class TranslateExtension : IMarkupExtension
     {
         readonly CultureInfo ci = null;
-        const string ResourceId = "WiemsProEasy.Resources.AppResources";
+        const string ResourceId = "Template.Resources.AppResources";
         private static readonly Lazy<ResourceManager> lazy = new(
                     () => new ResourceManager(ResourceId, IntrospectionExtensions.GetTypeInfo(typeof(TranslateExtension)).Assembly));
         static readonly Lazy<ResourceManager> ResMgr = lazy;
