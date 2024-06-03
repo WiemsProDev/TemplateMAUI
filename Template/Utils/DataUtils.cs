@@ -380,6 +380,38 @@ namespace Template.Utils
         }
         #endregion
         #region Clientes
+        public async Task<bool> ActualizaUSuario(ClientModel item)
+        {
+            try
+            {
+                using (await Mutex.LockAsync().ConfigureAwait(false))
+                {
+                    await _sqlCon.DeleteAllAsync<ClientModel>();
+                    await _sqlCon.InsertWithChildrenAsync(item, recursive: true);
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+        public async Task<bool> BorraUsuario()
+        {
+            try
+            {
+                await _sqlCon.DeleteAllAsync<MenuModel>();
+                await _sqlCon.DeleteAllAsync<ClientModel>();
+                await _sqlCon.DeleteAllAsync<ClientModel>();
+                await _sqlCon.DeleteAllAsync<TrainerModel>();
+                await _sqlCon.DeleteAllAsync<SessionModel>();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
         internal async Task<bool> ActualizaClientes(List<ClientModel> items)
         {
             //si no devuelve ninguno del servidor, no tengo que almacenarlos por lo que retorno

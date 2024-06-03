@@ -1,5 +1,7 @@
-﻿using CommunityToolkit.Maui;
+﻿using Acr.UserDialogs;
+using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
+using Microsoft.Maui.LifecycleEvents;
 using Template.Interfaces;
 using Template.Platforms.Source;
 
@@ -9,7 +11,10 @@ public static class MauiProgram
 {
 	public static MauiApp CreateMauiApp()
 	{
-		var builder = MauiApp.CreateBuilder();
+#if ANDROID
+        UserDialogs.Init(() => Platform.CurrentActivity);
+#endif
+        var builder = MauiApp.CreateBuilder();
 		builder
             .UseMauiCommunityToolkit()
             .UseMauiApp<App>()
@@ -24,6 +29,11 @@ public static class MauiProgram
         builder.Services.AddTransient<IPathService, PathService>();
         builder.Services.AddTransient<ILocalize, Localize>();
         builder.Services.AddTransient<IDeviceOrientationService, DeviceOrientation>();
+
+
+#if ANDROID
+        builder.Services.AddSingleton(UserDialogs.Instance);
+#endif
 
 #if DEBUG
         builder.Logging.AddDebug();

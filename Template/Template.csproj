@@ -94,6 +94,7 @@
 	  <None Remove="Resources\Fonts\WorkSans-Regular.ttf" />
 	  <None Remove="Resources\Fonts\" />
 	  <None Remove="Resources\Fonts\medium.ttf" />
+	  <None Remove="Platforms\Android\Resources\xml\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Interfaces\" />
@@ -107,6 +108,7 @@
 	  <Folder Include="Models\Entrenamiento\" />
 	  <Folder Include="Converters\" />
 	  <Folder Include="Resources\Fonts\" />
+	  <Folder Include="Platforms\Android\Resources\xml\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <EmbeddedResource Update="Resources\AppResources.resx">
@@ -140,5 +142,11 @@
 	  <BundleResource Include="Resources\Fonts\WorkSans-Medium.ttf" />
 	  <BundleResource Include="Resources\Fonts\WorkSans-Regular.ttf" />
 	  <BundleResource Include="Resources\Fonts\WorkSans-SemiBold.ttf" />
+	</ItemGroup>
+	<ItemGroup>
+	  <AndroidResource Update="Platforms\Android\Resources\xml\network_security_config.xml">
+	    <SubType></SubType>
+	    <Generator></Generator>
+	  </AndroidResource>
 	</ItemGroup>
 </Project>

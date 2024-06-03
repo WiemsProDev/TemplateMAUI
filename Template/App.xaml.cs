@@ -32,6 +32,9 @@ public partial class App : Microsoft.Maui.Controls.Application
     private bool resultLogin = false;
     public static string appVersion = "";
 
+    public static string UsuarioLogin = "";
+    public static string PasswordLogin = "";
+
     public static DataUtils DAUtil
     {
         get

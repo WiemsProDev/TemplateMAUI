@@ -7,7 +7,7 @@ public class PathService : IPathService
 {
     public string GetDatabasePath()
     {
-        string path = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+        string path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
         return Path.Combine(path, "Template.db3");
 
     }

@@ -358,6 +358,70 @@ namespace Template.Utils
         }
         #endregion
         #region Login y Registro
+        public async Task<ClientModel> LoginUser(string user, string pass, bool remember)
+        {
+            try
+            {
+                if (App.DAUtil.DoIHaveInternet())
+                {
+                    if (await GetToken(user, pass))
+                    {
+
+                        string url = "api/dispositivos/getClienteMobile";
+                        await LlamadaAsync(url);
+
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var resultJSON = await response.Content.ReadAsStringAsync();
+                            JsonSerializerSettings settings = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore };
+
+                            JsonResponse respuesta = JsonConvert.DeserializeObject<JsonResponse>(resultJSON, settings);
+                            if (respuesta.resultado == 1)
+                            {
+                                if (!respuesta.cliente.emailVerificado)
+                                {
+                                    Usuario = respuesta.cliente;
+                                    Error = AppResources.ErrorEmailVerificado;
+                                    return null;
+                                }
+                                else
+                                {
+                                    respuesta.cliente.password = pass;
+                                    if (remember)
+                                    {
+                                        await App.DAUtil.ActualizaUSuario(respuesta.cliente);
+                                    }
+                                    else
+                                        await App.DAUtil.BorraUsuario();
+
+                                    Preferences.Set("senderId", (int)respuesta.cliente.id);
+                                    Error = "";
+                                    return respuesta.cliente;
+                                }
+                            }
+                            else
+                            {
+                                Error = respuesta.mensaje;
+                                return null;
+                            }
+                        }
+                        else
+                        {
+                            Error = AppResources.Error;
+                            return null;
+                        }
+                    }
+
+                }
+                Error = AppResources.ErrorLogin;
+                return null;
+            }
+            catch (Exception ex)
+            {
+                Error = ex.Message.ToString();
+                return null;
+            }
+        }
         internal async Task<bool> Login(string user, string pass)
         {
             try
